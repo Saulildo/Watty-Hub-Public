@@ -526,9 +526,9 @@ task.spawn(function() LPH_NO_VIRTUALIZE(function()
                 if wksp.CouncilHouse:FindFirstChild("COUNCILONLY") then
                     wksp.CouncilHouse:FindFirstChild("COUNCILONLY").Parent = nil
                 end
-                if wksp.GuardBase.GuardCollision:FindFirstChild("GUARDONLY") then
-                    wksp.GuardBase.GuardCollision:FindFirstChild("GUARDONLY").Parent = nil
-                end
+               -- if wksp.GuardBase.GuardCollision:FindFirstChild("GUARDONLY") then
+                 --   wksp.GuardBase.GuardCollision:FindFirstChild("GUARDONLY").Parent = nil
+             --   end
                 if wksp.LeaderTower:FindFirstChild("LEADERONLY") then
                     wksp.LeaderTower:FindFirstChild("LEADERONLY").Parent = nil
                 end
